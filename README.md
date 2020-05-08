@@ -28,7 +28,7 @@ http://localhost:8000
 ``` 
     Endpoint: /partner/{id}
     method: GET
-    Example: http://localhost:8000/partner/{id}
+    Example: http://localhost:8000/partner/1
 ```
 
 - **Get near Partners from location**
@@ -42,7 +42,7 @@ http://localhost:8000
 - **Create Partner**
 ``` 
     Endpoint: /partner
-    method: GET
+    method: POST
     params: body bellow
     Example: http://localhost:8000/partner
 ```
@@ -163,6 +163,9 @@ http://localhost:8000
     }
 }
 ```
+
+###Postman Collection:
+[ze delivery backend challenge.postman_collection.json.zip](https://drive.google.com/open?id=1vAzQ-HxMz3eUzZByyH8rtxfHENxvf3Wv)
 
 ###Running tests:
 
